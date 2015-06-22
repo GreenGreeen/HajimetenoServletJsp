@@ -1,0 +1,9 @@
+<servlet>
+  <servlet-name>EchoServlet</servlet-name>
+  <servlet-class>input.EcoServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>EchoServlet</servlet-name>
+  <url-pattern>/servlet/EchoServlet</url-pattern>
+</servlet-mapping>
