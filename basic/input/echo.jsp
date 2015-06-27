@@ -1,8 +1,8 @@
-<%@page contentType="text/html; charset=Windows-31J"%>
+<%@page contentType="text/html; charset=UTF-8"%>
 
 <HTML>
   <HEAD>
-    <TITLE>EchoServle‚Ì“ü—Í</TITLE>
+    <TITLE>EchoServleã®å…¥åŠ›</TITLE>
   </HEAD>
   <BODY>
     <FORM ACTION="../servlet/EchoServlet">

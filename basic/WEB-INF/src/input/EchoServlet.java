@@ -9,9 +9,9 @@ import javax.servlet.http.*;
 public class EchoServlet extends HttpServlet{
 
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-      request.setCharacterEncoding("Windows-31J");
+      request.setCharacterEncoding("UTF-8");
       String msg = request.getParameter("message");
-      response.setContentType("text/plain, charset=Windows-31J");
+      response.setContentType("text/plain, charset=UTF-8");
       PrintWriter out = response.getWriter();
       out.println("message = " + msg);
 
