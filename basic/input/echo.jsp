@@ -5,7 +5,7 @@
     <TITLE>EchoServleの入力</TITLE>
   </HEAD>
   <BODY>
-    <FORM ACTION="../servlet/EchoServlet">
+    <FORM ACTION="../servlet/input.EchoServlet">
       <INPUT TYPE="TYPE" NAME="message">
       <INPUT TYPE="SUBMIT">
     </FORM>
