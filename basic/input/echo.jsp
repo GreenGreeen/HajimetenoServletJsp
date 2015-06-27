@@ -1,13 +1,13 @@
-<%@page contextType="text/plain, charset=Windows-31J"%>
+<%@page contentType="text/html; charset=Windows-31J"%>
 
-<html>
-  <head>
-    <title>EchoServletã®å…¥åŠ›</title>
-  </head>
-  <body>
-    <form action="../servlet/EchoServlet">
-      <input type="text" namr="message">
-      <input type="submit">
-    </form>
-  </body>
-</html>
+<HTML>
+  <HEAD>
+    <TITLE>EchoServle‚Ì“ü—Í</TITLE>
+  </HEAD>
+  <BODY>
+    <FORM ACTION="../servlet/EchoServlet">
+      <INPUT TYPE="TYPE" NAME="message">
+      <INPUT TYPE="SUBMIT">
+    </FORM>
+  </BODY>
+</HTML>
